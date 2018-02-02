@@ -1,0 +1,38 @@
+// SERVICES SECTION
+#post-thumbnail {
+  width: 60px;
+  height: 100px;
+  @include bg;
+  margin-right: 1rem;
+}
+
+.offers {
+  min-height: 65vh;
+  @include flexColumnCenterCenter;
+  h1 {
+    text-align: center;
+  }
+}
+
+.post-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  .post-content {
+    display: flex;
+    margin: 1rem 0rem 1rem 0rem;
+    max-width: 48%;
+  }
+}
+
+.post-text {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  p,a {
+    font-family: arial;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+}

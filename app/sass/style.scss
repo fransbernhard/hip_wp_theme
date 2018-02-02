@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Museo Sans';
+  src: url('../fonts/museosans_900-webfont.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Museo Sans';
+  src: url('../fonts/museosans_700-webfont.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Museo Sans';
+  src: url('../fonts/museosans_500-webfont.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Museo Sans';
+  src: url('../fonts/museosans-300-webfont.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Museo Sans';
+  src: url('../fonts/museosans-100-webfont.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@import "./config/normalize";
+@import "./config/mixins";
+@import "./config/variables";
+@import "./config/typography";
+@import "footer";
+@import "slider";
+@import "offers";
+@import "contact";
+@import "about";
+@import "navigation";
+@import "base";

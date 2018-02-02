@@ -1,0 +1,51 @@
+.acf-map {
+	width: 350px;
+	height: 300px;
+	border: #ccc solid 1px;
+	margin: 20px 0;
+}
+
+/* fixes potential theme css conflict */
+.acf-map img {
+   max-width: inherit !important;
+}
+
+.contact {
+  min-height: 50vh;
+	max-width: $container-width;
+	margin: 2rem 0rem;
+  @include flexCenterSB;
+}
+
+.contact-content {
+	max-width: 60%;
+}
+
+// CONTACT
+.wpcf7-text, .wpcf7-textarea, .wpcf7-submit {
+  width: $full-width-percent;
+  border-radius: 4px;
+  border: none;
+	background: lightgrey;
+  outline: none;
+}
+
+.wpcf7-text, .wpcf7-textarea {
+  padding: 7px;
+}
+
+.wpcf7-textarea {
+	resize: none;
+}
+
+.wpcf7-submit {
+  padding: $sm-padd;
+  background: $orgCol;
+  color: white;
+}
+
+#contact {
+  .ajax-loader {
+    display: none;
+  }
+}
